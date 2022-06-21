@@ -34,7 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           cd AE_ENCODER
+           cd Leech
            docker build -t compressor . && docker run compressor
            
        - name: Loop workflow
