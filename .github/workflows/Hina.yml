@@ -29,7 +29,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone -b master https://Dark-Senpai:${{ secrets.GH_TOKEN }}@github.com/Okteto-Token/AutoAnime.git 
+           git clone -b main https://Dark-Senpai:${{ secrets.GH_TOKEN }}@github.com/Okteto-Token/AutoAnime.git 
        - name: Running Hina Bot
          timeout-minutes: 300
          continue-on-error: true
